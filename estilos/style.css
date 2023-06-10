@@ -5,12 +5,31 @@
     padding: 0px;
 }
 
-body {
-    max-width: 375px;
-    background-color: aqua;
+header {
+    width: 500px;
+    margin: auto;
+    background-color: rgb(38, 38, 192);
+    color: slategray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
-body {
-    max-width: 1440px;
-    background-color:  hsl(0, 100%, 67%);
+header > h1 {
+    margin-bottom: 20px;
 }
+
+header >p >strong {
+    color: white; 
+    font-size: 2em;
+} 
+
+.info {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: auto;
+    padding-top: 20px;
+}
+
