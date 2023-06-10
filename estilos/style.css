@@ -16,10 +16,11 @@
 }
 
 header {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 340px;
     margin: auto;
-    background-color: rgb(38, 38, 192);
-    color: slategray;
+    /* background-color: rgb(38, 38, 192); */
+    color: rgb(131, 139, 148);
     text-align: center;
     padding: 20px;
     border-radius: 0px 0px 20px 20px;
@@ -36,10 +37,11 @@ strong {
 } 
 
 header > div {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: auto;
     
 }
@@ -64,7 +66,8 @@ section > h1 {
 
 section >p {
     margin: 10px;
-    background-color: chartreuse;
+    background-color: hsl(0, 67%, 88%);
+    color: hsl(0, 100%, 67%);
     padding: 10px;
     border-radius: 10px;
     font-size: 1.2em;
@@ -80,13 +83,12 @@ footer {
 }
 
 footer > input {
-     width: 330px;
+     width: 300px;
      padding: 15px;
      font-size: 1.2em;
      border-radius: 30px;
      border: none;
+     background-color: rgb(55, 61, 68);
+     color: white;
 }
 
-ul {
-    text-align: center;
-}
