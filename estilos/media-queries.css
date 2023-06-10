@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+
+    body {
+        padding: 9% 0% 0% 5%;
+        margin: auto;
+        width: 800px;
+        height: 500px;
+    }
+    
+    header {
+        float: left;
+        border-radius: 30px;
+       
+    }
+
+    section {
+        float: right;
+    }
+
+    footer {
+        float: right;
+    }
+}
